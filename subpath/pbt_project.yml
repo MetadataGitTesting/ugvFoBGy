@@ -41,10 +41,11 @@ sqlModels:
   .prophecy/metadata/sqlmodels/newmodel:
     name: newmodel
     schema: null
-    description: desc model
+    description: null
     author: 3snavibc.5qppnx5q@qc3fnuqy.com
     files:
     - subpath/newmodel.sql
+    - newmodel.yml
     sqlDependencies:
       models: []
       datasets: []
@@ -63,6 +64,14 @@ sqlMacros:
     files:
     - sources.yml
     createdAt: '2024-12-08 20:32:40'
+  .prophecy/metadata/sqlmacros/macro2:
+    name: macro2
+    macroType: macro2
+    description: null
+    author: 3snavibc.5qppnx5q@qc3fnuqy.com
+    files:
+    - sources.yml
+    createdAt: '2024-12-08 20:32:41'
 sqlSeeds:
   .prophecy/metadata/sqlseeds/seed1:
     name: seed1
@@ -72,14 +81,22 @@ sqlSeeds:
     files:
     - sources.yml
     createdAt: '2024-12-08 20:32:40'
+  .prophecy/metadata/sqlseeds/seed2:
+    name: seed2
+    schema: null
+    description: null
+    author: 3snavibc.5qppnx5q@qc3fnuqy.com
+    files:
+    - seed2.sql
+    createdAt: '2024-12-08 20:32:41'
 sqlSources:
-  .prophecy/metadata/sqlsources/source:
-    name: source
-    description: source desc
+  .prophecy/metadata/sqlsources/source2:
+    name: source2
+    description: null
     author: 3snavibc.5qppnx5q@qc3fnuqy.com
     files:
     - sources.yml
-    createdAt: '2024-12-08 20:32:40'
+    createdAt: '2024-12-08 20:32:41'
     tables: []
   .prophecy/metadata/sqlsources/multipleFileSource:
     name: multipleFileSource
@@ -87,7 +104,6 @@ sqlSources:
     author: 3snavibc.5qppnx5q@qc3fnuqy.com
     files:
     - sources1.yml
-    - mfs/src/multipleFileSource.yml
     createdAt: '2024-12-08 20:32:40'
     tables:
     - name: table1
